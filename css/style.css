@@ -1,0 +1,161 @@
+.container{
+    width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+}
+.logo img{
+    width:35%;
+}
+.default1{
+    display: flex;
+    justify-content: space-between;
+    width: 1366px;
+    background-color: currentColor;
+    align-items: center;
+    padding-left: 4%;
+}
+.registration{
+    padding-right: 2%;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.registration button{
+    margin-top: 1%;
+    margin-top: 1%;
+    background-color: blue;
+    color: bisque;
+    text-align: end;
+}
+.default1 p{
+    text-transform: uppercase;
+    font-size: x-large;
+    color: forestgreen;
+}
+nav{
+    width: 54%;
+}
+nav ul{
+    display: flex;
+}
+ul li:nth-child(2){
+    margin-left: 5%;
+}
+ul li:nth-child(3){
+    margin-left: 5%;
+}
+ul li:nth-child(4){
+    margin-left: 5%;
+}
+li a{
+    color: yellow;
+}
+/* headeri damtavrda */
+.guitar2{
+    display: flex;
+}
+.clasic{
+    width: 500%;
+background-color: cyan;
+text-align: center;
+border-radius: 145px;
+margin: 1%;
+}
+.acustic{
+    width: 500%;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 145px;
+    margin: 1%;
+}
+.acustic img{
+    width: 63%;
+}
+.clasic img{
+    width: 63%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+p{
+    margin: 5%;
+}
+.face{
+    background-color: #616c48;
+    text-align: center;
+    height: 35px;
+    font-size: x-large;
+    margin: auto;
+    width: 182px;
+    border-radius: 6px;
+    margin-top: 12px;
+    color: mintcream;
+    padding-top: 3px;
+}
+.six-line{
+    width: 48%;
+    background-color: #8a81d3;
+    text-align: center;
+    border-radius: 145px;
+    margin: 1%;
+}
+.six-line img{
+    width: 55%;
+}
+.electric{
+    width: 48%;
+    background-color:#fff92d;
+    text-align: center;
+    border-radius: 145px;
+    margin: 1%;
+}
+.electric img{
+    width: 39%;
+}
+/* acsesorries */
+.acsessories{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+.list{
+    background-color: #852222;
+    padding: 4px;
+}
+.list img{
+    width: 250px;
+}
+.m-l{
+    margin-left: 1%;
+}
+h3{
+    margin-bottom: 3%;
+    font-weight: 600;
+    color: yellow;
+}
+/* foother */
+.information{
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.information a{
+    margin-top: 1%;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    margin: auto;
+}
